@@ -1,13 +1,13 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.11'
+gem 'rails', '4.0.0'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'pg'
 
-gem 'activeadmin'
+gem 'activeadmin', '>= 0.5.1'
 
 
 # Gems used only for assets and not required
@@ -26,7 +26,7 @@ group :development do
   gem 'pry'
 end
 
-gem 'delayed_job_active_record'
+gem 'delayed_job_active_record', '>= 4.0.0'
 
 gem 'unicorn'
 
