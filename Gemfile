@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.11'
+gem 'rails', '5.2.8.1'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -26,7 +26,7 @@ group :development do
   gem 'pry'
 end
 
-gem 'delayed_job_active_record'
+gem 'delayed_job_active_record', '>= 4.1.3'
 
 gem 'unicorn'
 
