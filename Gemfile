@@ -7,7 +7,7 @@ gem 'rails', '3.2.11'
 
 gem 'pg'
 
-gem 'activeadmin'
+gem 'activeadmin', '>= 3.2.0'
 
 
 # Gems used only for assets and not required
